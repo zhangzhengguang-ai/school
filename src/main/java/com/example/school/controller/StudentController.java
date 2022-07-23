@@ -49,11 +49,11 @@ public class StudentController {
     }
 
     /**
-     * 查询id查询某个学生
+     * 根据id查询某个学生
      *
      * @return
      */
-    @ApiOperation(value = "查询id查询某个学生")
+    @ApiOperation(value = "根据id查询某个学生")
     @GetMapping("/{id}")
     public R findStudent(@PathVariable Long id) {
         return R.ok();
